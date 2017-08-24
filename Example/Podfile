@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MJPEGStreamLib_Example' do
+  pod 'MJPEGStreamLib', :path => '../'
+
+  target 'MJPEGStreamLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
