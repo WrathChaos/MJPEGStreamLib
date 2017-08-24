@@ -1,6 +1,6 @@
 # MJPEGStreamLib
 <p align="center">
-<img width="200" height="200" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/socket.png">
+<img width="200" height="200" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/logo.png">
 </p>
 
 
@@ -50,10 +50,10 @@ alt="Pod Version">
 Simple and elegant MJPEG Stream library. It is based on UIImageView and customizeable for your design. This is original a fork from [MjpegStreamingKit](https://github.com/freedom27/MjpegStreamingKit)
 
 <p align="center">
-<img src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot2">
+<img width="300" height="600" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot2.png">
 </p>
 <p align="center">
-<img width="100" height="300" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot1">
+<img  src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot1.png">
 </p>
 
 
@@ -71,9 +71,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 MJPEGStreamLib is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-DO NOT FORGET TO ADD PERMISSION FOR EXTERNAL DATA NETWORK : 
+<b>DO NOT FORGET TO ADD PERMISSION FOR EXTERNAL DATA NETWORK : </b>
 <p align="center">
-<img width="600" height="200" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot3">
+<img src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot3.png">
 </p>
 
 
