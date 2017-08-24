@@ -1,6 +1,6 @@
 # MJPEGStreamLib
 <p align="center">
-<img width="200" height="200" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/logo.png">
+<img  src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/logo.png">
 </p>
 
 
