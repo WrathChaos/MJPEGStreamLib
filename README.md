@@ -71,15 +71,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 MJPEGStreamLib is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+```ruby
+pod "MJPEGStreamLib"
+```
+
+
 <b>DO NOT FORGET TO ADD PERMISSION FOR EXTERNAL DATA NETWORK : </b>
 <p align="center">
 <img src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot3.png">
 </p>
 
 
-```ruby
-pod "MJPEGStreamLib"
-```
 
 
 ## Usage
