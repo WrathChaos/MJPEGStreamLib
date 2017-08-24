@@ -1,25 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G24b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MJPEGStreamLib_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MJPEG Stream Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhD-nt-b5L">
+                                <rect key="frame" x="0.0" y="28" width="375" height="27"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9M1-Uu-3Cw">
+                                <rect key="frame" x="0.0" y="63" width="375" height="604"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="LoZ-Yc-RbO">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450980390000002" green="0.64313725489999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LoZ-Yc-RbO" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="9KD-Z3-23Z"/>
+                            <constraint firstItem="9M1-Uu-3Cw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="JE4-oK-qJc"/>
+                            <constraint firstItem="LoZ-Yc-RbO" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="QJe-wY-eQo"/>
+                            <constraint firstItem="fhD-nt-b5L" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="SBY-Qk-4q6"/>
+                            <constraint firstAttribute="trailing" secondItem="9M1-Uu-3Cw" secondAttribute="trailing" id="UtI-nw-YXl"/>
+                            <constraint firstAttribute="trailing" secondItem="fhD-nt-b5L" secondAttribute="trailing" id="Wp8-bm-Nt6"/>
+                            <constraint firstItem="fhD-nt-b5L" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="aFy-pG-5bx"/>
+                            <constraint firstItem="9M1-Uu-3Cw" firstAttribute="top" secondItem="fhD-nt-b5L" secondAttribute="bottom" constant="8" id="cql-1Y-K5C"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9M1-Uu-3Cw" secondAttribute="bottom" id="lJE-uP-wWW"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="9M1-Uu-3Cw" id="3i9-fr-zVb"/>
+                        <outlet property="loadingIndicator" destination="LoZ-Yc-RbO" id="p5a-hX-mFZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>
         </scene>
     </scenes>
 </document>
