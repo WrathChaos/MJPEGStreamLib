@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		308FF6B50F4ED7FF67E6FC579BB46C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		44E147E91F4EEA86000B84FA /* MJPEGStreamLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E147E81F4EEA86000B84FA /* MJPEGStreamLib.swift */; };
+		44E147ED1F4EED0F000B84FA /* MJPEGStreamLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E147EC1F4EED0F000B84FA /* MJPEGStreamLib.swift */; };
 		56F29EFA467CC778444C147685D2AC5C /* Pods-MJPEGStreamLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3AB167F61379E7AE4D931DFA1549B1 /* Pods-MJPEGStreamLib_Example-dummy.m */; };
 		7114A1BCE14B0B9A80CF867A8A596FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7FAEC16FE85E2B11FAF047925C250088 /* Pods-MJPEGStreamLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA42395B54B58C32EAB33C66C230201A /* Pods-MJPEGStreamLib_Tests-dummy.m */; };
@@ -37,7 +37,7 @@
 		219262F442F83CBFD12D875DF5AA1ADE /* MJPEGStreamLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJPEGStreamLib-dummy.m"; sourceTree = "<group>"; };
 		2528FAC6D83717AA8FDA99C00A66D7A8 /* MJPEGStreamLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJPEGStreamLib.modulemap; sourceTree = "<group>"; };
 		3AC384A5E801A6611E896685A3ECB89A /* MJPEGStreamLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJPEGStreamLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E147E81F4EEA86000B84FA /* MJPEGStreamLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MJPEGStreamLib.swift; path = ../../Desktop/MJPEGStreamLib.swift; sourceTree = "<group>"; };
+		44E147EC1F4EED0F000B84FA /* MJPEGStreamLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MJPEGStreamLib.swift; path = MJPEGStreamLib/Classes/MJPEGStreamLib.swift; sourceTree = "<group>"; };
 		48083DFD3A92E2FCAA5E9E34CACA67AC /* Pods-MJPEGStreamLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJPEGStreamLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C5296F558810DA5C2BAA81C9E5989FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609C3BC4F6BC0DD4BAC18259974D01C9 /* Pods-MJPEGStreamLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJPEGStreamLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		BF3F35F8627A56D82A4C99E64A1D7408 /* MJPEGStreamLib */ = {
 			isa = PBXGroup;
 			children = (
-				44E147E81F4EEA86000B84FA /* MJPEGStreamLib.swift */,
+				44E147EC1F4EED0F000B84FA /* MJPEGStreamLib.swift */,
 				83896764B7876F3C9A6AEF5D79CD8A79 /* Support Files */,
 			);
 			name = MJPEGStreamLib;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					13C7B9855394BD5C1B76A826A596AD05 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9E521886C646235D3F0CC94B69CA4E /* MJPEGStreamLib-dummy.m in Sources */,
-				44E147E91F4EEA86000B84FA /* MJPEGStreamLib.swift in Sources */,
+				44E147ED1F4EED0F000B84FA /* MJPEGStreamLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -635,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
