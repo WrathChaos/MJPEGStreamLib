@@ -47,7 +47,7 @@ alt="Pod Version">
 
 
 ## Introduction
-Simple and elegant MJPEG Stream library. It is based on UIImageView and customizeable for your design. This is original a fork from [MjpegStreamingKit](https://github.com/freedom27/MjpegStreamingKit)
+Simple and elegant MJPEG Stream library. It is based on UIImageView and customizeable for your design.
 
 <p align="center">
 <img width="300" height="600" src="https://github.com/WrathChaos/MJPEGStreamLib/blob/master/Screenshots/screenshot2.png">
