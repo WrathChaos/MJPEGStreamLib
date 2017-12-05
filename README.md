@@ -35,6 +35,8 @@ alt="Build">
 alt="Issues">
 </a>
 <a href="https://github.com/WrathChaos/MJPEGStreamLib">
+<img src="https://img.shields.io/badge/Swift-4.0-orange.svg"
+alt="Swift 4.0">
 <img src="https://img.shields.io/badge/Swift-3.0-blue.svg"
 alt="Swift 3.0">
 </a>
@@ -64,8 +66,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 - iOS 8.0+
-- Xcode 8.1, 8.2, 8.3
+- XCode 8.1, 8.2, 8.3
+- **XCode 9.0+**
 - Swift 3.0, 3.1, 3.2
+- **Swift 4.0+**
+
 
 ## Installation
 
@@ -116,7 +121,7 @@ class ViewController: UIViewController {
     }
 
         // Your stream url should be here !
-        let url = URL(string: "http://webcam.st-malo.com/axis-cgi/mjpg/video.cgi")
+        let url = URL(string: "http://webcam.st-malo.com/axis-cgi/mjpg/video.cgi?")
         stream.contentURL = url
         stream.play() // Play the stream
     }

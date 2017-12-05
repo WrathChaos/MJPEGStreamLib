@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MJPEGStreamLib'
-  s.version          = '0.1.7'
+  s.version          = '0.2.0'
   s.summary          = 'Simple MJPEG Stream Library for Swift'
 
 # This description is used to generate tags and improve search results.
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Simple and easy to use MJPEG Stream Library. It contains authentication if your stream url needs a username/password. It is based on UIImageView so it is all up to your custom design.
+Simple and easy to use MJPEG Stream Library. It contains authentication if your stream url needs a username/password. It is based on UIImageView so it is all up to your custom design. Swift 4 and XCode 9.0+ Compatibility.
                        DESC
 
   s.homepage         = 'https://github.com/wrathchaos/MJPEGStreamLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kuray OGUN' => 'kurayogun@gmail.com' }
+  s.author           = { 'FreakyCoder' => 'kurayogun@gmail.com' }
   s.source           = { :git => 'https://github.com/wrathchaos/MJPEGStreamLib.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/freakycodercom'
 
