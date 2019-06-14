@@ -35,6 +35,10 @@ alt="Build">
 alt="Issues">
 </a>
 <a href="https://github.com/WrathChaos/MJPEGStreamLib">
+<img src="https://img.shields.io/badge/Swift-4.0-red.svg"
+alt="Swift 5.0">
+<img src="https://img.shields.io/badge/Swift-4.2-pink.svg"
+alt="Swift 4.2">
 <img src="https://img.shields.io/badge/Swift-4.0-orange.svg"
 alt="Swift 4.0">
 <img src="https://img.shields.io/badge/Swift-3.0-blue.svg"
@@ -70,6 +74,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - **XCode 9.0+**
 - Swift 3.0, 3.1, 3.2
 - **Swift 4.0+**
+- Swift 4.2+
+- **Swift 5.0+**
 
 
 ## Installation

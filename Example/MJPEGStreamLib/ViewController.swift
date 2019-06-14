@@ -8,6 +8,7 @@
 
 import UIKit
 import MJPEGStreamLib
+import Alamofire
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
         }
         
         // Your stream url should be here !
-        let url = URL(string: "http://webcam.st-malo.com/axis-cgi/mjpg/video.cgi?")
+        let url = URL(string: "http://camera1.mairie-brest.fr/mjpg/video.mjpg?resolution=3080x1360")
         stream.contentURL = url
         stream.play() // Play the stream
     }

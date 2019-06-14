@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308FF6B50F4ED7FF67E6FC579BB46C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		44E147F11F4EEEA5000B84FA /* MJPEGStreamLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E147F01F4EEEA5000B84FA /* MJPEGStreamLib.swift */; };
+		56F29EFA467CC778444C147685D2AC5C /* Pods-MJPEGStreamLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3AB167F61379E7AE4D931DFA1549B1 /* Pods-MJPEGStreamLib_Example-dummy.m */; };
+		7114A1BCE14B0B9A80CF867A8A596FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7FAEC16FE85E2B11FAF047925C250088 /* Pods-MJPEGStreamLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA42395B54B58C32EAB33C66C230201A /* Pods-MJPEGStreamLib_Tests-dummy.m */; };
+		8F9E521886C646235D3F0CC94B69CA4E /* MJPEGStreamLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219262F442F83CBFD12D875DF5AA1ADE /* MJPEGStreamLib-dummy.m */; };
+		BFFB8FF0241639737AE0EE6CAB1503BA /* MJPEGStreamLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D52E5F15CDB4707B0BCE9B9840D8BC85 /* MJPEGStreamLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32C4855099D0AB2BEC2774B8C803EE7 /* Pods-MJPEGStreamLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A798F0FFB6A34E00CCAE345CC7B89D /* Pods-MJPEGStreamLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D492B1BA0E9481E077E9824A82611A07 /* Pods-MJPEGStreamLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C19E3DE474FDE1D9576D6EA785C326 /* Pods-MJPEGStreamLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33F2A8B853B7C48A98800C964171A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7088DD119692937CB772BE1305940D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C7B9855394BD5C1B76A826A596AD05;
+			remoteInfo = MJPEGStreamLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005292AECE6C65B975DAC1924A03F77E /* Pods-MJPEGStreamLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJPEGStreamLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09A798F0FFB6A34E00CCAE345CC7B89D /* Pods-MJPEGStreamLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJPEGStreamLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		0E3228962E3764676A125474B46290B7 /* Pods_MJPEGStreamLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJPEGStreamLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2AA74C1615327938A9150545A4FB0A /* Pods-MJPEGStreamLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJPEGStreamLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		219262F442F83CBFD12D875DF5AA1ADE /* MJPEGStreamLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJPEGStreamLib-dummy.m"; sourceTree = "<group>"; };
+		2528FAC6D83717AA8FDA99C00A66D7A8 /* MJPEGStreamLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJPEGStreamLib.modulemap; sourceTree = "<group>"; };
+		3AC384A5E801A6611E896685A3ECB89A /* MJPEGStreamLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJPEGStreamLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E147F01F4EEEA5000B84FA /* MJPEGStreamLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MJPEGStreamLib.swift; path = MJPEGStreamLib/Classes/MJPEGStreamLib.swift; sourceTree = "<group>"; };
+		48083DFD3A92E2FCAA5E9E34CACA67AC /* Pods-MJPEGStreamLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJPEGStreamLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C5296F558810DA5C2BAA81C9E5989FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609C3BC4F6BC0DD4BAC18259974D01C9 /* Pods-MJPEGStreamLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJPEGStreamLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E39A19B3C03FF7FC27AAF9A0D822D33 /* Pods-MJPEGStreamLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJPEGStreamLib_Tests.modulemap"; sourceTree = "<group>"; };
+		6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJPEGStreamLib.xcconfig; sourceTree = "<group>"; };
+		7536F67FE8AC003390558FECF270A3CF /* Pods-MJPEGStreamLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJPEGStreamLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		81F078139D546231541449F7690D9432 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B69EA177C3300D4B1E3D1A66E590280 /* Pods-MJPEGStreamLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJPEGStreamLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AC96E2CF3CFFCEECC71EA0C5C5F422B /* Pods-MJPEGStreamLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJPEGStreamLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2EE417DC7C945CF5298DE4A002D2D7C /* Pods-MJPEGStreamLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJPEGStreamLib_Example.modulemap"; sourceTree = "<group>"; };
+		AA42395B54B58C32EAB33C66C230201A /* Pods-MJPEGStreamLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJPEGStreamLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1324CAAC3BDA764819DE30BAECAAE02 /* Pods-MJPEGStreamLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJPEGStreamLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBF07BEDAB9A514368447F787CD2AB7B /* Pods_MJPEGStreamLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJPEGStreamLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52E5F15CDB4707B0BCE9B9840D8BC85 /* MJPEGStreamLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJPEGStreamLib-umbrella.h"; sourceTree = "<group>"; };
+		D61B22C6130B5CA49AA04400C76F4013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17A6088A264F53D7A7BEB5C4F085C81 /* Pods-MJPEGStreamLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJPEGStreamLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F1B7828A9E5C5B59206EB22F85751A /* Pods-MJPEGStreamLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJPEGStreamLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3AB167F61379E7AE4D931DFA1549B1 /* Pods-MJPEGStreamLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJPEGStreamLib_Example-dummy.m"; sourceTree = "<group>"; };
+		EC0ADB82E06CC371A7674DDE32BA5FA1 /* MJPEGStreamLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJPEGStreamLib-prefix.pch"; sourceTree = "<group>"; };
+		F6D24C7363C957DC22D5123B2EE66A45 /* Pods-MJPEGStreamLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJPEGStreamLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		F876A46B450091DBCF51DBDADEFA89B4 /* Pods-MJPEGStreamLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJPEGStreamLib_Example-resources.sh"; sourceTree = "<group>"; };
+		F8C19E3DE474FDE1D9576D6EA785C326 /* Pods-MJPEGStreamLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJPEGStreamLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175BA07B8B8CDACEB2BE190C93D4DCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308FF6B50F4ED7FF67E6FC579BB46C48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A5978FF8B40887ED2BA3DF1DE65F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33F2A8B853B7C48A98800C964171A42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBB8F5E3E21508C21E269F0E9634990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7114A1BCE14B0B9A80CF867A8A596FA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013ADE6918C3124D2C764FEDDB8D3B9D /* Pods-MJPEGStreamLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C5296F558810DA5C2BAA81C9E5989FC /* Info.plist */,
+				A2EE417DC7C945CF5298DE4A002D2D7C /* Pods-MJPEGStreamLib_Example.modulemap */,
+				005292AECE6C65B975DAC1924A03F77E /* Pods-MJPEGStreamLib_Example-acknowledgements.markdown */,
+				609C3BC4F6BC0DD4BAC18259974D01C9 /* Pods-MJPEGStreamLib_Example-acknowledgements.plist */,
+				EA3AB167F61379E7AE4D931DFA1549B1 /* Pods-MJPEGStreamLib_Example-dummy.m */,
+				48083DFD3A92E2FCAA5E9E34CACA67AC /* Pods-MJPEGStreamLib_Example-frameworks.sh */,
+				F876A46B450091DBCF51DBDADEFA89B4 /* Pods-MJPEGStreamLib_Example-resources.sh */,
+				09A798F0FFB6A34E00CCAE345CC7B89D /* Pods-MJPEGStreamLib_Example-umbrella.h */,
+				7536F67FE8AC003390558FECF270A3CF /* Pods-MJPEGStreamLib_Example.debug.xcconfig */,
+				1A2AA74C1615327938A9150545A4FB0A /* Pods-MJPEGStreamLib_Example.release.xcconfig */,
+			);
+			name = "Pods-MJPEGStreamLib_Example";
+			path = "Target Support Files/Pods-MJPEGStreamLib_Example";
+			sourceTree = "<group>";
+		};
+		2AF2494570F18A3CA954EF503C479541 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				013ADE6918C3124D2C764FEDDB8D3B9D /* Pods-MJPEGStreamLib_Example */,
+				3274E6359E35C1C04D3C02537FABE562 /* Pods-MJPEGStreamLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3274E6359E35C1C04D3C02537FABE562 /* Pods-MJPEGStreamLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D61B22C6130B5CA49AA04400C76F4013 /* Info.plist */,
+				6E39A19B3C03FF7FC27AAF9A0D822D33 /* Pods-MJPEGStreamLib_Tests.modulemap */,
+				8B69EA177C3300D4B1E3D1A66E590280 /* Pods-MJPEGStreamLib_Tests-acknowledgements.markdown */,
+				9AC96E2CF3CFFCEECC71EA0C5C5F422B /* Pods-MJPEGStreamLib_Tests-acknowledgements.plist */,
+				AA42395B54B58C32EAB33C66C230201A /* Pods-MJPEGStreamLib_Tests-dummy.m */,
+				B1324CAAC3BDA764819DE30BAECAAE02 /* Pods-MJPEGStreamLib_Tests-frameworks.sh */,
+				F6D24C7363C957DC22D5123B2EE66A45 /* Pods-MJPEGStreamLib_Tests-resources.sh */,
+				F8C19E3DE474FDE1D9576D6EA785C326 /* Pods-MJPEGStreamLib_Tests-umbrella.h */,
+				E7F1B7828A9E5C5B59206EB22F85751A /* Pods-MJPEGStreamLib_Tests.debug.xcconfig */,
+				E17A6088A264F53D7A7BEB5C4F085C81 /* Pods-MJPEGStreamLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-MJPEGStreamLib_Tests";
+			path = "Target Support Files/Pods-MJPEGStreamLib_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E52A5A2829B93D53B1FE511C223728F2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8EA01C07D8FA579CB7DBC1A6C937017B /* Products */,
+				2AF2494570F18A3CA954EF503C479541 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83896764B7876F3C9A6AEF5D79CD8A79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F078139D546231541449F7690D9432 /* Info.plist */,
+				2528FAC6D83717AA8FDA99C00A66D7A8 /* MJPEGStreamLib.modulemap */,
+				6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */,
+				219262F442F83CBFD12D875DF5AA1ADE /* MJPEGStreamLib-dummy.m */,
+				EC0ADB82E06CC371A7674DDE32BA5FA1 /* MJPEGStreamLib-prefix.pch */,
+				D52E5F15CDB4707B0BCE9B9840D8BC85 /* MJPEGStreamLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJPEGStreamLib";
+			sourceTree = "<group>";
+		};
+		8EA01C07D8FA579CB7DBC1A6C937017B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC384A5E801A6611E896685A3ECB89A /* MJPEGStreamLib.framework */,
+				0E3228962E3764676A125474B46290B7 /* Pods_MJPEGStreamLib_Example.framework */,
+				CBF07BEDAB9A514368447F787CD2AB7B /* Pods_MJPEGStreamLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3F35F8627A56D82A4C99E64A1D7408 /* MJPEGStreamLib */ = {
+			isa = PBXGroup;
+			children = (
+				44E147F01F4EEEA5000B84FA /* MJPEGStreamLib.swift */,
+				83896764B7876F3C9A6AEF5D79CD8A79 /* Support Files */,
+			);
+			name = MJPEGStreamLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E52A5A2829B93D53B1FE511C223728F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF3F35F8627A56D82A4C99E64A1D7408 /* MJPEGStreamLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04B9FA7A2D8D4A21458E50F0F89BC17B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492B1BA0E9481E077E9824A82611A07 /* Pods-MJPEGStreamLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286592481B2953D214BF5F7159F12989 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFB8FF0241639737AE0EE6CAB1503BA /* MJPEGStreamLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418E2F01CF1B61D1693F71FDD7A233F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C4855099D0AB2BEC2774B8C803EE7 /* Pods-MJPEGStreamLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13C7B9855394BD5C1B76A826A596AD05 /* MJPEGStreamLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478A0AFFA88947DEB1F0CAABC57AF362 /* Build configuration list for PBXNativeTarget "MJPEGStreamLib" */;
+			buildPhases = (
+				B4D12AF8259EC0E0A78F2E5F9A14D35A /* Sources */,
+				2EBB8F5E3E21508C21E269F0E9634990 /* Frameworks */,
+				286592481B2953D214BF5F7159F12989 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJPEGStreamLib;
+			productName = MJPEGStreamLib;
+			productReference = 3AC384A5E801A6611E896685A3ECB89A /* MJPEGStreamLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAFEF99646BCD3820580E8FD72B4BE33 /* Pods-MJPEGStreamLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87200D504CA394F2F650F5D8DDE13F98 /* Build configuration list for PBXNativeTarget "Pods-MJPEGStreamLib_Example" */;
+			buildPhases = (
+				93A2F288587C7B93929461EA19E80533 /* Sources */,
+				27A5978FF8B40887ED2BA3DF1DE65F94 /* Frameworks */,
+				418E2F01CF1B61D1693F71FDD7A233F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483C701B8B476B3BCA93EF52B167AE8B /* PBXTargetDependency */,
+			);
+			name = "Pods-MJPEGStreamLib_Example";
+			productName = "Pods-MJPEGStreamLib_Example";
+			productReference = 0E3228962E3764676A125474B46290B7 /* Pods_MJPEGStreamLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA8D6F7728E3AB7A8956E53248038A09 /* Pods-MJPEGStreamLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A1D85E59F75EE782391AE665BD67F2 /* Build configuration list for PBXNativeTarget "Pods-MJPEGStreamLib_Tests" */;
+			buildPhases = (
+				19CF85DFEFD26905FB3E4E8C268C69EE /* Sources */,
+				175BA07B8B8CDACEB2BE190C93D4DCA6 /* Frameworks */,
+				04B9FA7A2D8D4A21458E50F0F89BC17B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MJPEGStreamLib_Tests";
+			productName = "Pods-MJPEGStreamLib_Tests";
+			productReference = CBF07BEDAB9A514368447F787CD2AB7B /* Pods_MJPEGStreamLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					13C7B9855394BD5C1B76A826A596AD05 = {
+						LastSwiftMigration = 0910;
+					};
+					DAFEF99646BCD3820580E8FD72B4BE33 = {
+						LastSwiftMigration = 0910;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EA01C07D8FA579CB7DBC1A6C937017B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C7B9855394BD5C1B76A826A596AD05 /* MJPEGStreamLib */,
+				DAFEF99646BCD3820580E8FD72B4BE33 /* Pods-MJPEGStreamLib_Example */,
+				FA8D6F7728E3AB7A8956E53248038A09 /* Pods-MJPEGStreamLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CF85DFEFD26905FB3E4E8C268C69EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAEC16FE85E2B11FAF047925C250088 /* Pods-MJPEGStreamLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2F288587C7B93929461EA19E80533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F29EFA467CC778444C147685D2AC5C /* Pods-MJPEGStreamLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D12AF8259EC0E0A78F2E5F9A14D35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9E521886C646235D3F0CC94B69CA4E /* MJPEGStreamLib-dummy.m in Sources */,
+				44E147F11F4EEEA5000B84FA /* MJPEGStreamLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483C701B8B476B3BCA93EF52B167AE8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJPEGStreamLib;
+			target = 13C7B9855394BD5C1B76A826A596AD05 /* MJPEGStreamLib */;
+			targetProxy = 7088DD119692937CB772BE1305940D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		338C3339FF05B3039161A9862B0A8FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17A6088A264F53D7A7BEB5C4F085C81 /* Pods-MJPEGStreamLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJPEGStreamLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJPEGStreamLib_Tests/Pods-MJPEGStreamLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJPEGStreamLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62006CDA74F2F23D627B7E7EB4413BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2AA74C1615327938A9150545A4FB0A /* Pods-MJPEGStreamLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJPEGStreamLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJPEGStreamLib_Example/Pods-MJPEGStreamLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJPEGStreamLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E3304BCE4EE577FA3C4519EC32D89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJPEGStreamLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MJPEGStreamLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE858D1DAFC7571BD923E08202DCD8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F1B7828A9E5C5B59206EB22F85751A /* Pods-MJPEGStreamLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJPEGStreamLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJPEGStreamLib_Tests/Pods-MJPEGStreamLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJPEGStreamLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEDB676A040644CD55323D0B00F64D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7536F67FE8AC003390558FECF270A3CF /* Pods-MJPEGStreamLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJPEGStreamLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJPEGStreamLib_Example/Pods-MJPEGStreamLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJPEGStreamLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0EC3D6A2D9AD0000CBB473A406D9E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4E6658AC3E7C76DD3A26F16278555A /* MJPEGStreamLib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJPEGStreamLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MJPEGStreamLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A1D85E59F75EE782391AE665BD67F2 /* Build configuration list for PBXNativeTarget "Pods-MJPEGStreamLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE858D1DAFC7571BD923E08202DCD8E6 /* Debug */,
+				338C3339FF05B3039161A9862B0A8FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478A0AFFA88947DEB1F0CAABC57AF362 /* Build configuration list for PBXNativeTarget "MJPEGStreamLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E3304BCE4EE577FA3C4519EC32D89C /* Debug */,
+				E0EC3D6A2D9AD0000CBB473A406D9E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87200D504CA394F2F650F5D8DDE13F98 /* Build configuration list for PBXNativeTarget "Pods-MJPEGStreamLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB676A040644CD55323D0B00F64D48 /* Debug */,
+				62006CDA74F2F23D627B7E7EB4413BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
