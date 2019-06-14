@@ -1,23 +1,16 @@
 PODS:
-  - Alamofire (4.8.2)
-  - MJPEGStreamLib (0.2.0)
+  - MJPEGStreamLib (0.2.1)
 
 DEPENDENCIES:
-  - Alamofire
   - MJPEGStreamLib (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Alamofire
 
 EXTERNAL SOURCES:
   MJPEGStreamLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  MJPEGStreamLib: 39da7ffe186c202f7d01f5d1cc3b1a3bab667fe5
+  MJPEGStreamLib: e3d89ac431a9be7a9c4b5de119f26855f720132a
 
-PODFILE CHECKSUM: 7ef39bc142218e67dc033b6d830741dfd56d6126
+PODFILE CHECKSUM: db48793ed1ca76d4f49f4aa8720c4216566475e6
 
 COCOAPODS: 1.7.0

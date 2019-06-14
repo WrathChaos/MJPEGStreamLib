@@ -1,8 +1,8 @@
 {
   "name": "MJPEGStreamLib",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "Simple MJPEG Stream Library for Swift",
-  "description": "Simple and easy to use MJPEG Stream Library. It contains authentication if your stream url needs a username/password. It is based on UIImageView so it is all up to your custom design. Swift 4 and XCode 9.0+ Compatibility.",
+  "description": "Simple and easy to use MJPEG Stream Library. It contains authentication if your stream url needs a username/password. It is based on UIImageView so it is all up to your custom design. Swift 5, 4.2, 4 and XCode 9.0+ Compatibility.",
   "homepage": "https://github.com/wrathchaos/MJPEGStreamLib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wrathchaos/MJPEGStreamLib.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "social_media_url": "https://twitter.com/freakycodercom",
   "platforms": {
