@@ -8,7 +8,6 @@
 
 import UIKit
 import MJPEGStreamLib
-import Alamofire
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!

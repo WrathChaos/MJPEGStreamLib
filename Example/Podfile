@@ -2,7 +2,6 @@ use_frameworks!
 
 target 'MJPEGStreamLib_Example' do
   pod 'MJPEGStreamLib', :path => '../'
-  pod 'Alamofire'
 
   target 'MJPEGStreamLib_Tests' do
     inherit! :search_paths
