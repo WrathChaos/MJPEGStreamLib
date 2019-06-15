@@ -35,7 +35,7 @@ alt="Build">
 alt="Issues">
 </a>
 <a href="https://github.com/WrathChaos/MJPEGStreamLib">
-<img src="https://img.shields.io/badge/Swift-4.0-red.svg"
+<img src="https://img.shields.io/badge/Swift-5.0-blue.svg"
 alt="Swift 5.0">
 <img src="https://img.shields.io/badge/Swift-4.2-pink.svg"
 alt="Swift 4.2">
