@@ -148,7 +148,7 @@ class ViewController: UIViewController {
 
 ## Author
 
-Kuray OGUN, kurayogun@gmai.com
+Kuray OGUN, kurayogun@gmail.com
 
 ## License
 
