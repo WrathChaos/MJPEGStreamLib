@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Kuray ÖĞÜN on 24/08/2017.
-//
+//  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit

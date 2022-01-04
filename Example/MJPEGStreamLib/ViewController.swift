@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MJPEGStreamLib_Example
 //
-//  Created by Kuray ÖĞÜN on 5.12.2017.
-//  Copyright © 2017 CocoaPods. All rights reserved.
+//  Created by Kuray aka FreakyCoder on 5.12.2017.
+//  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         }
         
         // Your stream url should be here !
-        let url = URL(string: "http://camera1.mairie-brest.fr/mjpg/video.mjpg?resolution=3080x1360")
+        let url = URL(string: "http://ip-thomasmarina.greatlakescam.com/user/cgi-bin/getstream.cgi?10&&&&0&0&0&0&0")
         stream.contentURL = url
         stream.play() // Play the stream
     }
